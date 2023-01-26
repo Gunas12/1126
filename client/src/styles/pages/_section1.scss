@@ -1,0 +1,36 @@
+.section1{
+    width: 100%;
+    height: 900px;
+    
+    .imgdiv{
+        width: 100%;
+        min-height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &:nth-child(1){
+            background: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg") no-repeat center /cover;
+        }
+        &:nth-child(2){
+            background: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg") no-repeat center /cover;
+                    }
+        &:nth-child(3){
+            background: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg") no-repeat center /cover;
+                 }
+    }
+    h1{
+        font-weight: 400;
+        font-size: 72px;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        line-height: 86.4px;
+        text-decoration: none;
+        transform: none;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0;
+        span{
+            background-color: rgb(255,182,6);
+        }
+    }
+}
